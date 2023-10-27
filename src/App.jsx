@@ -3,6 +3,7 @@ import { useState } from 'react'
 import NavBar from './components/NavBar'
 import data from './data'
 import EachMusic from './components/EachMusicList'
+import bgimg from './assets/images/bgimg2.jpg'
 
 function App(){
   const [ currMusic, setCurrMusic ] = useState(0)
@@ -14,7 +15,7 @@ function App(){
   }
 
   return (
-    <main className='main' style={{backgroundImage:`url('../assets/images/bgimg2.jpg')`}}>
+    <main className='main' style={{backgroundImage:`url('${bgimg}')`}}>
       <main className="main2">
         <NavBar />
         <div className="container">

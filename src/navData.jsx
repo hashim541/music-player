@@ -1,27 +1,34 @@
+import discover from './assets/svg/discover.svg'
+import radio from './assets/svg/radio.svg'
+import artist from './assets/svg/artist.svg'
+import albums from './assets/svg/albums.svg'
+import playlist from './assets/svg/playlist.svg'
+import foryou from './assets/svg/foryou.svg'
+
 const navData=[
     {
         title:'Discover',
-        svg:'./src/assets/svg/discover.svg'
+        svg:discover
     },
     {
         title:'Radio',
-        svg:'./src/assets/svg/radio.svg'
+        svg:radio
     },
     {
         title:'Artists',
-        svg:'./src/assets/svg/artist.svg'
+        svg:artist
     },
     {
         title:'Albums',
-        svg:'./src/assets/svg/albums.svg'
+        svg:albums
     },
     {
         title:'Playlist',
-        svg:'./src/assets/svg/playlist.svg'
+        svg:playlist
     },
     {
         title:'For you',
-        svg:'./src/assets/svg/foryou.svg'
+        svg:foryou
     }
 ]
 export default navData
