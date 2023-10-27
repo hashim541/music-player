@@ -3,15 +3,15 @@ const data=[
     {
         id:1,
         title:'Avengers',
-        img:'/music-player/assets/images/avengers.jpg',
-        song:'/music-player/assets/music/avengers-theme.mp3',
+        img:'/images/avengers.jpg',
+        song:'/music/avengers-theme.mp3',
         time:'4 m : 11 s'
     },
     {
         id:2,
         title:'Back to the future',
-        img:'/music-player/assets/images/back-to-the-future.jpg',
-        song:'/music-player/assets/music/back-to-the-future-theme.mp3',
+        img:'/images/back-to-the-future.jpg',
+        song:'/music/back-to-the-future-theme.mp3',
         time:'3 m : 19 s'
     },
     {
