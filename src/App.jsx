@@ -14,7 +14,7 @@ function App(){
   }
 
   return (
-    <main className='main' style={{backgroundImage:`url('.music-player/src/assets/images/bgimg2.jpg')`}}>
+    <main className='main' style={{backgroundImage:`url('music-player/src/assets/images/bgimg2.jpg')`}}>
       <main className="main2">
         <NavBar />
         <div className="container">
